@@ -36,7 +36,7 @@ public class Hexagon extends Shape {
     @Override
     public double surfaceArea() {
         // surface area of a hexagonal prism is A = 6*ah+3* √(3) a^2
-        return ((6.0 * baseEdge * height) + 3.0 * Math.sqrt(3) * Math.pow(baseEdge, 2.0));
+        return ((6.0 * baseEdge * height) + 3.0 * Math.sqrt(3.0) * Math.pow(baseEdge, 2.0));
     }
 
     @Override

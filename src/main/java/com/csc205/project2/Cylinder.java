@@ -36,7 +36,7 @@ public class Cylinder extends Shape {
     @Override
     public double surfaceArea() {
         // surface area of cylinder is A = 2πrh+2πr^2
-        return (2 * Math.PI * radius * height) + (2.0 * Math.PI * Math.pow(radius, 2.0));
+        return (2.0 * Math.PI * radius * height) + (2.0 * Math.PI * Math.pow(radius, 2.0));
     }
 
     @Override
