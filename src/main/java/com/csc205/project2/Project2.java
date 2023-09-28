@@ -1,5 +1,6 @@
 package com.csc205.project2;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,6 +30,7 @@ public class Project2 {
         shapes.add(hexagon);
 
         shapes.forEach(System.out::println);
+
 
     }
 
